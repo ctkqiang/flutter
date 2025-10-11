@@ -1,0 +1,14 @@
+import("//build/config/linux/cc_toolchain.gni")
+
+shared_library("flutter_ohos") {
+    sources = [
+        "flutter_ohos.cc",
+    ]
+
+    include_dirs = [
+        ".",
+        "runner",
+        "graphics",
+        "input",
+    ]
+}

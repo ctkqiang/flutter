@@ -1,0 +1,3 @@
+group("graphics") {
+    sources = ["ohos_surface.cc"]
+}

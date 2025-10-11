@@ -1,0 +1,4 @@
+executable("ohos_runner") {
+    sources = ["ohos_runner.cc"]
+    deps = ["//shell/platform/ohos:flutter_ohos"]
+}
